@@ -1,0 +1,27 @@
+@charset "UTF-8";
+
+h1#principal {
+    color: white;
+    background-color: coral;
+    text-align: center;
+}
+
+h1 {
+    color: coral;
+}
+
+h2 {
+    color: rgba(255, 127, 80, 0.74);
+}
+
+.basico {
+    text-align: left;
+}
+
+.intermediario {
+    text-align: center;
+}
+
+.avancado {
+    text-align: right;
+}
