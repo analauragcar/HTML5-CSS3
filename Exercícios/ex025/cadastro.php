@@ -1,1 +1,2 @@
-Os dados foram anviados, aprenda PHP para saber o que fazer com eles.
+Os dados foram anviados!
+Aprenda PHP para saber o que fazer com eles.
