@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+/* Estilo para telas */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html {
+    font-size: 1em;
+}
+
+header {
+    background-color: rgba(169, 169, 169, 0.747);
+}
+
+header > h1 {
+    text-align: center;
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu li {
+    display: inline-block;
+    padding: 10px;
+    background-color: gray;
+    color: white;
+}
+
+article {
+    width: 500px;
+    display: block;
+    margin: auto;
+}
+
+article > p {
+    text-align: justify;
+    text-indent: 25px;
+}
