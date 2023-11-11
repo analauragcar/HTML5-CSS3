@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Midia Query 5</title>
+    <link rel="shortcut icon" href="favicon.ico.png" type="image/x-icon">
+    <link rel="stylesheet" href="estilos/style.css">
+</head>
+<body>
+    <header>
+        <h1>Meu Site</h1>
+        <i id="burguer" onclick="clickMenu()"><img src="menu_FILL0_wght400_GRAD0_opsz24.png" alt="menu"></i>
+        <menu id="itens">
+            <ul>
+                <li><a href="#">Opção 1</a></li>
+                <li><a href="#">Opção 2</a></li>
+                <li><a href="#">Opção 3</a></li>
+                <li><a href="#">Opção 4</a></li>
+                <li><a href="#">Opção 5</a></li>
+            </ul>
+        </menu>
+    </header>
+    <main>
+        <article>
+           <h2>Testando Midia Queries</h2> 
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor voluptates ducimus, eaque nemo, dolorem quas ex, necessitatibus deleniti vel dolorum reprehenderit earum autem facere voluptas. Sit optio atque maiores vitae! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem perferendis vel a aspernatur et iste cupiditate illo, sit corporis laudantium praesentium magni ducimus! Quibusdam vel dolore molestiae aut, unde exercitationem!</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nobis fugiat expedita optio repellendus rem sit quisquam nemo amet, cumque iure in harum quasi, repudiandae est, quae eligendi. Sed, amet. Possimus.</p>
+           <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, magnam quo voluptas assumenda placeat laboriosam fuga nam. Voluptate distinctio odit tempore est molestiae. Laudantium quod consequatur consectetur ab autem animi?Lorem, ipsum dolor sit amet consectetur adipisicing elit. Optio possimus laudantium deleniti quidem vero culpa vitae veritatis doloremque quibusdam? Alias doloribus aspernatur rem officiis saepe fugiat aliquid voluptas possimus asperiores!</p>
+        </article>
+    </main>
+    <script>
+
+        function clickMenu() {
+            if (itens.style.display == 'block') {
+                itens.style.display = 'none'
+            } else {
+                itens.style.display = 'block'
+            }
+        }
+    </script>
+</body>
+</html>
